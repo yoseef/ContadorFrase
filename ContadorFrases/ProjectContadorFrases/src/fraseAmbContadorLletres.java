@@ -36,6 +36,7 @@ public class fraseAmbContadorLletres {
             }
 
         }
+//bucles per imprimir numeros i lletres.
 	    System.out.println("numeros: ");
             for (Lletra llt : Lletres) {
                 if (Character.isDigit(llt.getchar())) {
