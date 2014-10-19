@@ -12,7 +12,10 @@ import java.util.Map;
  * @author user
  */
 public class Lletra {
-
+/**
+* a emmagatzem el caracter de l'objecte lletra.
+*
+*/
     private char a;
     private int v = 0;
 
