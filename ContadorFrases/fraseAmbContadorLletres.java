@@ -13,7 +13,6 @@ import java.util.Scanner;
  * @author user
  */
 public class fraseAmbContadorLletres {
-
     static Scanner lc = new Scanner(System.in);
     public static String frase = "";
     static ArrayList<Lletra> Lletres = new ArrayList();
