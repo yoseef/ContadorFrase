@@ -36,8 +36,17 @@ public class fraseAmbContadorLletres {
             }
 
         }
-        for (Lletra llt : Lletres) {
-            System.out.println(llt);
-        }
+	    System.out.println("numeros: ");
+            for (Lletra llt : Lletres) {
+                if (Character.isDigit(llt.getchar())) {
+                    System.out.println(llt);
+                }
+            }
+            System.out.println("lletres: ");
+            for (Lletra llt : Lletres) {
+                if (Character.isLetter(llt.getchar())) {
+                    System.out.println(llt);
+                }
+            }
     }
 }
