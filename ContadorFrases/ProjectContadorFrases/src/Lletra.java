@@ -24,6 +24,10 @@ public class Lletra {
     public void incre() {
         v++;
     }
+/**
+*
+* toString retorna una cadena concetanada de la lletra i el numero de vagades.
+*/
 
     public String toString() {
         return a + " : " + v;
